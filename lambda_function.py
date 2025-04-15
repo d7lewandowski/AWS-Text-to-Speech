@@ -73,13 +73,13 @@ def lambda_handler(event, context):
         # For the list of supported language codes, refer to
         # https://docs.aws.amazon.com/polly/latest/dg/SupportedLanguage.html
 
-        language_code = '<Enter_Your_Language_Code>'
+        language_code = 'en-GB'
 
         # Define the Voice_ID.
         # For list of supported voice and engine, refer to
         # https://docs.aws.amazon.com/polly/latest/dg/voicelist.html
 
-        voice_id='<Enter_Your_Voice_ID>'
+        voice_id='Amy'
         
         # Read the file and convert to string
         # Start speech synthesis task to convert the string to speech.
